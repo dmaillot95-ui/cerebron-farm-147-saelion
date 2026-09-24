@@ -1,0 +1,31 @@
+{
+  "schema": "SAELION_BENCHMARK_V1",
+  "status": "FROZEN_TEMPLATE_NO_RESULTS",
+  "role": "exploration-learning-selection-compression",
+  "domains": [
+    "lesson_selection",
+    "compression_fidelity",
+    "transfer",
+    "negative_transfer_detection",
+    "memory_hygiene",
+    "calibration"
+  ],
+  "m6_rule": "M6_NEVER_IN_TRAIN",
+  "modes": [
+    "BASE_MODEL_ALONE",
+    "SAELION_PRETRAIN_SCAFFOLD",
+    "SAELION_TRAINED",
+    "SAELION_PLUS_MINIMAL_COALITION"
+  ],
+  "metrics": [
+    "accuracy",
+    "critical_error_rate",
+    "calibration",
+    "transfer",
+    "regression",
+    "latency",
+    "memory_peak",
+    "provenance_completeness"
+  ],
+  "result_status": "NO_EXECUTED_BASELINE_YET"
+}
