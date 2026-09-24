@@ -1,0 +1,61 @@
+{
+  "schema": "SAELION_ARCHITECTURE_V1",
+  "farm_id": 147,
+  "name": "SAELION",
+  "status": "SCAFFOLDED_NOT_TRAINED",
+  "domain": "native-learning-exploration",
+  "role": "exploration-learning-selection-compression",
+  "mission": "Select, compress and transfer validated lessons while preserving provenance, failures and negative transfer.",
+  "shared_base_family": "ELYSION_ELYSIUM_SHARED_BASE",
+  "runtime_changed": false,
+  "layers": [
+    {
+      "id": "L0",
+      "name": "BASE_MODEL",
+      "rule": "select by reproducible cold role benchmark"
+    },
+    {
+      "id": "L1",
+      "name": "SAELION_CORE",
+      "rule": "specialized trainable reasoning core"
+    },
+    {
+      "id": "L2",
+      "name": "ADAPTERS",
+      "rule": "reversible adapters first"
+    },
+    {
+      "id": "L3",
+      "name": "MEMORY_INTERFACE",
+      "rule": "Memory Omega provenance and M6 isolation"
+    },
+    {
+      "id": "L4",
+      "name": "PI_SEARCH_INTERFACE",
+      "rule": "shared search directions; PI is not an oracle"
+    },
+    {
+      "id": "L5",
+      "name": "TOOLS_AND_FARMS",
+      "rule": "real execution receipts only"
+    },
+    {
+      "id": "L6",
+      "name": "CEREBRON_ORCHESTRATION",
+      "rule": "minimal useful coalition"
+    },
+    {
+      "id": "L7",
+      "name": "AFAH_REDTEAM",
+      "rule": "promotion requires independent audit"
+    }
+  ],
+  "rules": [
+    "REALITY>COHERENCE",
+    "EVIDENCE>CONFIDENCE",
+    "CLAIM<=EVIDENCE",
+    "M6_NEVER_IN_TRAIN",
+    "RUNTIME_FREEZE",
+    "SIMULATION!=TEST"
+  ]
+}
