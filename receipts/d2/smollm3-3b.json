@@ -1,0 +1,16 @@
+{
+  "schema": "SAELION_D2_EXACT_RUNTIME_RECEIPT_V1",
+  "run_id": 36138362585,
+  "model_id": "HuggingFaceTB/SmolLM3-3B",
+  "revision": "a07cc9a04f16550a088caea529712d1d335b0ac1",
+  "revision_verified": true,
+  "real_inference": true,
+  "weights_changed": false,
+  "prompt_sha256": "63e95cc3631c63ff541ef547e45785742cf3d1da2322bf72054e0e5fd50cd9dd",
+  "output_sha256": "e11c5457154d50ac647f2ab7927d4341032e56be96a4d7bb93a5b0df511e41e0",
+  "output_nonempty": true,
+  "elapsed_s": 9.916,
+  "max_rss_kb": 6703012,
+  "claim_ceiling": "EXACT_REVISION_RUNTIME_CANARY_ONLY",
+  "receipt_sha256": "9025f26ca8bb6735d2d7fff922ff6c24456b6b4b9cddd9f63efc3cd970e168cd"
+}
